@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/f3frame"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ftab3">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/button_bg"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginTop="30dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/userimage"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_gravity="left"
+                            android:src="@drawable/male" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="bottom"
+                            android:orientation="vertical"
+                            android:paddingLeft="10dp">
+
+                            <TextView
+                                android:id="@+id/naam"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/bungee"
+                                android:gravity="bottom"
+                                android:text="Name: "
+                                android:textSize="20dp" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="20dp"
+                        android:background="#69BCE1"
+                        android:gravity="center|left"
+                        android:orientation="vertical"
+                        android:paddingLeft="20dp"
+                        android:visibility="visible">
+
+                        <TextView
+                            android:id="@+id/he"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/bungee"
+                            android:text="Height:"
+                            android:textSize="20dp" />
+
+                        <TextView
+                            android:id="@+id/we"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/bungee"
+                            android:text="Weight"
+                            android:textSize="20dp" />
+
+                        <TextView
+                            android:id="@+id/gen"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/bungee"
+                            android:text="Gender"
+                            android:textSize="20dp" />
+
+                        <TextView
+                            android:id="@+id/agetext"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/bungee"
+                            android:text="age"
+                            android:textSize="20dp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/recomen"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="25dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView21"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/bungee"
+                        android:text="Your current Intensity"
+                        android:textSize="10dp" />
+
+                    <TextView
+                        android:id="@+id/intentext"
+                        android:layout_width="wrap_content"
+
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="22dp"
+                        android:fontFamily="@font/bungee"
+                        android:text="Intensity"
+                        android:textSize="20dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/fe"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="20dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/bungee"
+                        android:text="About Bmax"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:id="@+id/textView19"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center_horizontal"
+                        android:text="BMAX is a Application that aims to provide people guidance on diseases and ailments at the basic level. This helps the people who don’t have resources or guidance and who end up taking immature and wrong steps in these situations.The sole motive of the program is to help people. In the end we would like to say that Health is the first requisite to happiness and to help people with maintaining the Harmony of their body we have come up with this idea." />
+
+                    <TextView
+                        android:id="@+id/textView20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:text="Team Bmax" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/aboutapp"
+                android:padding="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bungee"
+                    android:gravity="center_horizontal"
+                    android:text="About Application"
+                    android:textSize="25dp" />
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/logo" />
+
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_width="match_parent"
+                    android:textColor="#F1EAEA"
+                    android:text="This application is running on java API level 30\nApplication version 0.1 with no branch\nAll User Data is stored in Google firebase with high safety and privacy\nAll program and method that are written in source code are under google and Bmax\nAll images used in Bmax are owned by google source link and can  be subject to copy right\nApplication is design, idea and developed by Yuvraj Singh Yadav and by Shreyas Om\n
+Dated: 01/AUG/2021\n@ALL RIGHT RESERVE"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/logout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/bungee"
+                android:text="Log Out"
+                android:textColor="#E57373"
+                app:iconTint="#B5B2B2" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

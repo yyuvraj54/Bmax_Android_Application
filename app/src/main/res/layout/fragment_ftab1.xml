@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ftab1">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:background="@drawable/searchcurve"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/Search"
+                    android:layout_width="290dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:ems="10"
+                    android:fontFamily="@font/bungee"
+                    android:hint="Enter your problem"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp"
+                    android:textColor="#7A7A7A"
+                    android:textColorHint="#47708F"
+                    android:textSize="11dp" />
+
+                <ImageButton
+                    android:id="@+id/searchbutton"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:minHeight="48dp"
+                    android:src="?android:attr/actionModeWebSearchDrawable"
+                    tools:ignore="SpeakableTextPresentCheck"
+                    android:paddingRight="10dp"/>
+            </LinearLayout>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:background="@drawable/simplecurve"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/outputlines"
+                        android:layout_width="match_parent"
+
+
+                        android:layout_height="500dp"
+                        android:layout_margin="18dp"
+                        android:background="#4C4B4A"
+                        android:ems="10"
+
+                        android:focusable="false"
+                        android:fontFamily="@font/bungee"
+                        android:gravity="start|top"
+                        android:inputType="textMultiLine|textNoSuggestions"
+                        android:longClickable="false"
+                        android:minHeight="48dp"
+                        android:text="\n\nTry Searching :\nStress \nHeadache \nStomachAche \nAsthma \nFeaver Etc.. \n\n\nYou can search from top search box"
+                        android:textColor="#DDDDDD"
+                        android:textColorHint="@color/white"
+                        android:textSize="17dp"
+                        tools:ignore="SpeakableTextPresentCheck" />
+                </LinearLayout>
+            </ScrollView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:background="@drawable/bak"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+
+                <TextView
+                    android:id="@+id/textView27"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/bungee"
+                    android:text="COVID-19 GLOBAL DATA"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/cases"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#64B5F6"
+                    android:fontFamily="@font/bungee"
+                    android:paddingLeft="10dp"
+                    android:text="CASES:                  Null" />
+
+                <TextView
+                    android:id="@+id/active"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#E57373"
+                    android:fontFamily="@font/bungee"
+                    android:paddingLeft="10dp"
+                    android:text="ACTIVE:                Null" />
+
+                <TextView
+                    android:id="@+id/deaths"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#7E7E7E"
+                    android:fontFamily="@font/bungee"
+                    android:paddingLeft="10dp"
+                    android:text="DEATHS:               Null" />
+
+                <TextView
+                    android:id="@+id/recovered"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#81C784"
+                    android:fontFamily="@font/bungee"
+                    android:paddingLeft="10dp"
+                    android:text="RECOVERED:       Null" />
+
+                <TextView
+                    android:id="@+id/textView28"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:text="If values are null, Try check your internet connections "
+                    android:textColor="#9E2C2C" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:background="@drawable/simplecurve"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:id="@+id/textView29"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bungee"
+                    android:gravity="center"
+                    android:text="Current Searches"
+                    android:textSize="20dp" />
+
+                <ListView
+                    android:id="@+id/history"
+                    android:layout_width="match_parent"
+                    android:layout_height="138dp"
+                    android:paddingLeft="20dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

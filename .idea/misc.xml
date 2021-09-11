@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.1828125" />
+        <entry key="app/src/main/res/drawable/aboutapp.xml" value="0.29814814814814816" />
+        <entry key="app/src/main/res/drawable/back.xml" value="0.30462962962962964" />
+        <entry key="app/src/main/res/drawable/bak.xml" value="0.30462962962962964" />
+        <entry key="app/src/main/res/drawable/button_bg.xml" value="0.3260416666666667" />
+        <entry key="app/src/main/res/drawable/curveit.xml" value="0.29814814814814816" />
+        <entry key="app/src/main/res/drawable/de.xml" value="0.30462962962962964" />
+        <entry key="app/src/main/res/drawable/dumbl.xml" value="0.30462962962962964" />
+        <entry key="app/src/main/res/drawable/exercise.xml" value="0.30462962962962964" />
+        <entry key="app/src/main/res/drawable/fe.xml" value="0.30462962962962964" />
+        <entry key="app/src/main/res/drawable/first.xml" value="0.1765625" />
+        <entry key="app/src/main/res/drawable/fon.xml" value="0.18385416666666668" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.21388888888888888" />
+        <entry key="app/src/main/res/drawable/recomen.xml" value="0.30462962962962964" />
+        <entry key="app/src/main/res/drawable/searchcurve.xml" value="0.29814814814814816" />
+        <entry key="app/src/main/res/drawable/simplecurve.xml" value="0.30462962962962964" />
+        <entry key="app/src/main/res/layout/activity_inten1.xml" value="0.15070921985815602" />
+        <entry key="app/src/main/res/layout/activity_inten2.xml" value="0.29583333333333334" />
+        <entry key="app/src/main/res/layout/activity_inten3.xml" value="0.15070921985815602" />
+        <entry key="app/src/main/res/layout/activity_intro.xml" value="0.16770833333333332" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_mainscreen.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_rootscreen.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_signup.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/fragment_ftab1.xml" value="0.22427547340784867" />
+        <entry key="app/src/main/res/layout/fragment_ftab2.xml" value="0.3322166387493021" />
+        <entry key="app/src/main/res/layout/fragment_ftab3.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/fragment_tab1.xml" value="0.21545931654069853" />
+        <entry key="app/src/main/res/layout/fragment_tab4.xml" value="0.15070921985815602" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

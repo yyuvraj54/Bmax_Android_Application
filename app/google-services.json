@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "738674895561",
+    "project_id": "bmax-8b876",
+    "storage_bucket": "bmax-8b876.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:738674895561:android:90da8c4f5f02faa1cfbb18",
+        "android_client_info": {
+          "package_name": "com.example.bmax"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "738674895561-pirn8087v8lg41hh0vnuvrh8f4rh1r85.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC82Hss1DXtbOtJNvkFekQrTQPutA_3F40"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "738674895561-pirn8087v8lg41hh0vnuvrh8f4rh1r85.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
